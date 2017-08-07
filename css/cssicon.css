@@ -1,0 +1,56 @@
+/*
+* @Author: vicentMacBook
+* @Date:   2017-03-13 16:37:32
+* @Last Modified by:   vicentMacBook
+* @Last Modified time: 2017-03-13 16:37:34
+*/
+.smile-solid.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+}
+
+.smile-solid.icon:before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  color: white;
+  background-color: currentColor;
+}
+
+.smile-solid.icon:after {
+  content: '';
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  color: white;
+  background-color: currentColor;
+}
+
+.smile-solid.icon i {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  color: white;
+  border-top: solid 1px transparent;
+  border-bottom: solid 1px currentColor;
+  border-left: solid 1px transparent;
+  border-right: solid 1px transparent;
+}
+
